@@ -46,6 +46,14 @@
   border: none;
   padding: 20px 0;
   width: 100%;
+  transition: opacity 0.1s;
+  cursor: pointer;
+  transition: opacity 0.2%;
+}
+
+.form__button :hover {
+  background-color: #1878dc;
+  opacity: 0.2%;
 }
 
 .form__checkbox {
