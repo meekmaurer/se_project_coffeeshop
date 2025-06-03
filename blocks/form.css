@@ -46,13 +46,12 @@
   border: none;
   padding: 20px 0;
   width: 100%;
-  transition: opacity 0.1s;
+  transition: background-color 0.3s;
   cursor: pointer;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
-  transition: background-color 0.3s ease;
 }
 
 .form__checkbox {
@@ -65,6 +64,7 @@
 }
 
 .form__label_type_checkbox {
+  align-items: center;
   display: flex;
   justify-content: center;
   gap: 12px;
